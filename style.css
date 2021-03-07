@@ -1,0 +1,59 @@
+body{
+    background-color:tomato;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    color: white;
+}
+section{
+    padding: 15px;
+}
+ul li{
+    border: solid 1px tomato;
+    list-style-type: none;
+    border-radius: 10px;
+    color: white;
+    margin: 5px;
+    background-color: tomato;
+    padding: 8px 15px;
+}
+nav{
+    width: 25%;
+}
+ul li:hover{
+    color: tomato;
+    background-color: white;
+}
+ul{
+    padding: 0;
+}
+
+section{
+   background-color: white;
+}
+footer{
+    background-color:lightgrey;
+    color: tomato;
+    text-align: center;
+    border: solid darkgray 3px;
+    border-radius: 10px;
+    padding:10px;
+    font-weight: 100;
+    margin: 20px;
+}
+aside{
+    background-color: lightpink;
+    padding: 10px;
+    width: 25%;
+}
+.title{
+    color: tomato;
+    font-weight: bold;
+}
+main{
+    width: 40%;
+}
+
+nav,aside,main{
+    display: inline-block;
+}
